@@ -1,0 +1,20 @@
+#include <SDL.h>
+
+
+
+MAIN
+	LOAD SDL
+	LOAD GRAPHICS
+	LOAD INTRO
+
+	MAIN_MENU
+	SWITCH
+		case PLAY
+			CODE
+		case OPTIONS
+			CODE
+		case QUIT GAME
+			FREE_GRAPHICS
+			QUIT SDL
+
+
